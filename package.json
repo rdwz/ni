@@ -1,15 +1,11 @@
 {
   "name": "@redwerkz/ni",
   "type": "module",
-  "version": "0.21.14",
-  "packageManager": "pnpm@8.11.0",
+  "version": "1.0.0-beta",
+  "packageManager": "bun@1.0.28",
   "description": "Use the right package manager",
   "author": "Marc Redwerkz",
   "license": "MIT",
-  "homepage": "https://github.com/rdwz/ni#readme",
-  "bugs": {
-    "url": "https://github.com/rdwz/ni/issues"
-  },
   "exports": {
     ".": {
       "types": "./dist/index.d.ts",
@@ -50,7 +46,7 @@
     "@types/ini": "^4.1.0",
     "@types/node": "^20.11.19",
     "@types/which": "^3.0.3",
-    "bumpp": "^9.2.0",
+    "bumpp": "^9.3.0",
     "eslint": "^8.56.0",
     "esno": "^4.0.0",
     "execa": "^8.0.1",
