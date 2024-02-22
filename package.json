@@ -1,7 +1,7 @@
 {
   "name": "@redwerkz/ni",
   "type": "module",
-  "version": "1.0.0-beta",
+  "version": "1.0.0-beta.0",
   "packageManager": "bun@1.0.28",
   "description": "Use the right package manager",
   "author": "Marc Redwerkz",
@@ -32,7 +32,7 @@
   "scripts": {
     "build": "unbuild",
     "dev": "esno src/commands/ni.ts",
-    "lint": "eslint .",
+    "lint": "biome check --apply-unsafe ./src",
     "nr": "esno src/commands/nr.ts",
     "prepublishOnly": "npm run build",
     "release": "bumpp && npm publish",
@@ -41,6 +41,7 @@
   },
   "devDependencies": {
     "@antfu/eslint-config": "^2.6.4",
+    "@biomejs/biome": "^1.5.3",
     "@posva/prompts": "^2.4.4",
     "@types/fs-extra": "^11.0.4",
     "@types/ini": "^4.1.0",
