@@ -1,7 +1,7 @@
 {
   "name": "@redwerkz/ni",
   "type": "module",
-  "version": "1.0.0-beta.1",
+  "version": "1.0.0-beta.2",
   "packageManager": "bun@1.0.28",
   "description": "Use the right package manager",
   "author": "Marc Redwerkz",
@@ -52,7 +52,7 @@
     "esno": "^4.0.0",
     "execa": "^8.0.1",
     "fast-glob": "^3.3.2",
-    "find-up": "^7.0.0",
+    "find-up": "^6.3.0",
     "fs-extra": "^11.2.0",
     "fzf": "^0.5.2",
     "ini": "^4.1.1",
