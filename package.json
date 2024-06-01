@@ -1,11 +1,10 @@
 {
   "name": "@redwerkz/ni",
-  "type": "module",
-  "version": "1.0.0-beta.2",
-  "packageManager": "bun@1.0.28",
+  "version": "1.0.0-beta.3",
   "description": "Use the right package manager",
-  "author": "Marc Redwerkz",
   "license": "MIT",
+  "author": "Marc Redwerkz",
+  "type": "module",
   "exports": {
     ".": {
       "types": "./dist/index.d.ts",
@@ -32,7 +31,7 @@
   "scripts": {
     "build": "unbuild",
     "dev": "esno src/commands/ni.ts",
-    "lint": "biome check --apply-unsafe ./src",
+    "lint": "biome check src",
     "nr": "esno src/commands/nr.ts",
     "prepublishOnly": "npm run build",
     "release": "bumpp && npm publish",
@@ -40,28 +39,30 @@
     "test": "vitest"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^2.6.4",
-    "@biomejs/biome": "^1.5.3",
+    "@biomejs/biome": "^1.7.3",
     "@posva/prompts": "^2.4.4",
     "@types/fs-extra": "^11.0.4",
     "@types/ini": "^4.1.0",
-    "@types/node": "^20.11.20",
-    "@types/which": "^3.0.3",
-    "bumpp": "^9.3.0",
-    "eslint": "^8.57.0",
-    "esno": "^4.0.0",
-    "execa": "^8.0.1",
+    "@types/node": "^20.13.0",
+    "@types/which": "^3.0.4",
+    "bumpp": "^9.4.1",
+    "esno": "^4.7.0",
+    "execa": "^9.1.0",
     "fast-glob": "^3.3.2",
     "find-up": "^6.3.0",
     "fs-extra": "^11.2.0",
     "fzf": "^0.5.2",
-    "ini": "^4.1.1",
+    "ini": "^4.1.3",
     "kleur": "^4.1.5",
-    "rimraf": "^5.0.5",
+    "rimraf": "^5.0.7",
     "terminal-link": "^3.0.0",
-    "typescript": "^5.3.3",
+    "typescript": "^5.4.5",
     "unbuild": "^2.0.0",
-    "vitest": "^1.3.1",
+    "vitest": "^1.6.0",
     "which": "^4.0.0"
-  }
+  },
+  "packageManager": "bun@1.1.10",
+  "trustedDependencies": [
+    "@biomejs/biome"
+  ]
 }
