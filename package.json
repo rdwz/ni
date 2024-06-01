@@ -1,6 +1,6 @@
 {
   "name": "@redwerkz/ni",
-  "version": "1.0.0-beta.3",
+  "version": "1.0.0-beta.4",
   "description": "Use the right package manager",
   "license": "MIT",
   "author": "Marc Redwerkz",
@@ -54,14 +54,13 @@
     "fzf": "^0.5.2",
     "ini": "^4.1.3",
     "kleur": "^4.1.5",
-    "rimraf": "^5.0.7",
     "terminal-link": "^3.0.0",
     "typescript": "^5.4.5",
     "unbuild": "^2.0.0",
     "vitest": "^1.6.0",
     "which": "^4.0.0"
   },
-  "packageManager": "bun@1.1.10",
+  "packageManager": "bun@1.1.12",
   "trustedDependencies": [
     "@biomejs/biome"
   ]
