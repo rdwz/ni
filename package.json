@@ -1,18 +1,11 @@
 {
   "name": "@redwerkz/ni",
-  "version": "1.0.0-beta.5",
+  "version": "1.0.0-beta.6",
   "description": "Use the right package manager",
   "license": "MIT",
   "author": "Marc Redwerkz",
   "type": "module",
-  "exports": {
-    ".": {
-      "types": "./dist/index.d.ts",
-      "import": "./dist/index.mjs",
-      "require": "./dist/index.cjs"
-    }
-  },
-  "main": "./dist/index.cjs",
+  "main": "./dist/index.mjs",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
   "bin": {
